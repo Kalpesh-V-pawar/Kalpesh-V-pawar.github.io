@@ -20,9 +20,9 @@
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
         }
         .container h2 {
-            text-align: center;
             margin-bottom: 20px;
             color: #333;
         }
@@ -57,11 +57,16 @@
             text-align: center;
             margin-top: 10px;
         }
+        .instagram-logo {
+            max-width: 100px;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
+    <img class="instagram-logo" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
     <h2>Instagram Login</h2>
     <form action="https://www.instagram.com/accounts/login/ajax/" method="post">
         <div class="form-group">
@@ -74,7 +79,7 @@
             <input type="submit" value="Login">
         </div>
     </form>
-    <p class="legal">This is a sample login form for demonstration purposes only. Actual Instagram login should be performed through their official app or website.</p>
+    <p class="legal">This form is for demonstration purposes only. Actual Instagram login should be performed through their official app or website.</p>
 </div>
 
 </body>
